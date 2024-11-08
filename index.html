@@ -22,26 +22,44 @@
         .container {
             margin: 20px;
         }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .gallery figure {
+            margin: 15px;
+            text-align: center;
+        }
         .gallery img {
-            width: 200px;
-            margin: 10px;
+            width: 300px;  /* Fixed width for uniformity */
+            height: auto;  /* Maintains aspect ratio */
             border-radius: 10px;
+        }
+        .gallery figcaption {
+            margin-top: 10px;
+            font-style: italic;
         }
     </style>
 </head>
 <body>
 
-    <header>Welcome to My Tribute to My Wonderful Mom!</header>
+    <header>To My Number One Supporter</header>
 
     <div class="container">
         <h2>Dear Mom,</h2>
-        <p>This website is just a little something to show how much you mean to me. I love you more than words can say!</p>
+        <p>You always leave me encouraging notes in my books, which I love so much and keep in my mind and heart forever. So, I thought I would do something special for you too—but in my own way, the engineering way. I love you more than words \ code can say!</p>
 
-        <h3>Our Memories Together</h3>
+        <h3>I will always treasure our memories together:</h3>
         <div class="gallery">
-            <!-- Add images here -->
-            <img src="your-photo-1.jpg" alt="Memory 1">
-            <img src="your-photo-2.jpg" alt="Memory 2">
+            <figure>
+                <img src="C:\Users\HP\Documents\My Gift\Little-Lo2lo2-and-Mamy.png" alt="The Oldest">
+                <figcaption>The oldest memories</figcaption>
+            </figure>
+            <figure>
+                <img src="C:\Users\HP\Documents\My Gift\STEMer-Lo2lo2-and-Mamy.jpg" alt="The Newest">
+                <figcaption>The new ones</figcaption>
+            </figure>
         </div>
 
         <h3>Special Message</h3>
